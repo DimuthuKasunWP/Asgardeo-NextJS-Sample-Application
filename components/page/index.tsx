@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Navigation from '@/components/navigation';
+import Navigation from '@/../components/navigation';
 import { tw } from 'twind';
 
 interface IProps {

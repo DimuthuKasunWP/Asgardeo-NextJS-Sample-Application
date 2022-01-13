@@ -1,9 +1,5 @@
 import { tw, css } from 'twind/css';
-import Button from '@/components/button';
-import Netlify from '@/constants/svg/netlify.svg';
-import Nike from '@/constants/svg/nike.svg';
-import Figma from '@/constants/svg/figma.svg';
-import Aws from '@/constants/svg/aws.svg';
+import Button from '@/../components/button';
 
 const headerStyle = css`
   background-color: #ffffff;
@@ -18,7 +14,7 @@ const Header = () => (
       </h1>
       <div className={tw(`max-w-xl mx-auto`)}>
         <p className={tw(`mt-10 text-gray-500 text-center text-xl lg:text-3xl`)}>
-        Create seamless login experiences in minutes.Try out Asgardeo for free and see how much time you can save
+          Create seamless login experiences in minutes.Try out Asgardeo for free and see how much time you can save
         </p>
       </div>
       <div className={tw(`mt-10 flex justify-center items-center w-full mx-auto`)}>
