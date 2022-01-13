@@ -1,5 +1,6 @@
 import { tw, css } from 'twind/css';
 import Button from '@/../components/button';
+import { signIn } from "next-auth/react"
 
 const headerStyle = css`
   background-color: #ffffff;
@@ -18,7 +19,12 @@ const Header = () => (
         </p>
       </div>
       <div className={tw(`mt-10 flex justify-center items-center w-full mx-auto`)}>
-        <Button primary>Login with Asgardeo</Button>
+        <Button
+          onClick={(e) => {
+            e.preventDefault()
+            signIn("asgardeo", { callbackUrl: "/home" })
+          }}
+          primary>Login with Asgardeo</Button>
       </div>
     </div>
   </header>

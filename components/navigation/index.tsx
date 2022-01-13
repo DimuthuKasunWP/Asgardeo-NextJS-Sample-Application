@@ -66,7 +66,7 @@ const Navigation = () => {
           </div>
           <div className={tw(` md:block`)}>
             <div className={tw(`ml-4 flex items-center md:ml-6`)}>
-              <a href="https://asgardeo.io" target ="_blank">
+              <a href="https://asgardeo.io" target="_blank">
                 <Button primary>Asgardeo</Button>
               </a>
             </div>
