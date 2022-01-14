@@ -6,8 +6,9 @@
 
 Clone this repository and run the following commands inside the project folder:
 
-1. `yarn`
-2. `yarn dev`
+1. `cp .env.local.example .env.local`
+2. `yarn`
+3. `yarn dev`
 
 To view the project open `http://localhost:3000`
 
